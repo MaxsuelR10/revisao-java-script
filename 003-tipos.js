@@ -45,3 +45,8 @@ function ExibeDados() {
 }
 
 ExibeDados();
+
+console.log('');
+console.log('Tipo da variável: ExibeDados');
+console.log(typeof(populacao));
+console.log(Array.isArray(ExibeDados));
