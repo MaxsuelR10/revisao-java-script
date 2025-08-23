@@ -12,5 +12,14 @@ let  entrada = require ('prompt-sync')();
     }
     if(idade < 18 ) {
         console.log('Você não tem idade para acessar o site.');
+    } else {
+        console.log('ok você tem 18 anos.')
     }
  }
+
+ if (nome.length < 5) {
+    console.log('Seu nome é meuito curto.')
+ }
+
+ const maioridade = idade >= 18 ? 'Maior' : 'Menor'; // Ternário
+ console.log(`${nome} descobri que você é ${maioridade} de idade.`);
